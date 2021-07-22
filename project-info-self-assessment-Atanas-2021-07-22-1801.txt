@@ -49,6 +49,17 @@ The numbers in brackets define possible points for the corresponding item.
 1. Problem statement (10)
 	* The problem is clearly stated and discussed in the "Introduction" and "Abstract" sections. The "Null hypothesis" and "Alternative hypothesis" are clearly stated and explored using the Scientific Method and solved in the process, and results are discussed in the "Results and Summary" section.
 	* Null hypothesis and Alternative hypothesis are set out in the "Hypothesis" section and later disproved and/or proven with experiments throughout the notebook, with graphics and visualizations, for example, trying to see which is the most common star sign in the "What about star sign" section.
+	* One of the aims of this article is to also understand a bit of Data Science, more specifically how to clean, manipulate and visualize data in order to get it into a usable state from which we can extract information we might be interested in.
+	Another aim of this article is to hopefully make these topics less taboo, which is probably a good thing, as we will see in the Research section, more specifically Research conclusions section, these topics penetrate our lives in various ways and are therefore important.
+	Please keep in mind that this article is intended to be both scientific and humorous and fun and has no intention of insulting or offending anyone.
+	The humour, jokes and friendly tone of this article is chosen on purpose and intended as it seemed like a good way to convey this data, containing explicit content, and in this way to have a better reception, rather than a negative or offensive outlook.
+	This article is an exploration and extension inspired by the original article - "Pornactors are among us! (18+)" by infamous25700 - Alexander Filin in Kaggle. 
+	The first main difference between this notebook and the original one is that we will not be merging the two data sets and instead keep the separation between porn stars and porn models.
+	This way if more intricate differentiations or parallels need to be extrapolated it can be done in an easier manner.
+	In addition, as an expansion of the original article each section has been provided with a "Results comparison" subsection, which compares the current results of the separation of the data sets, with the original results, where the datasets are merged.
+	Furthermore a further expansion of the original article/notebook can be seen in the Deeper penetration of the data section where new explorations and visualizations of the data have been added.
+	At a first glance this article/notebook might look like it was copied literally from the original, however it is not, as each line of code or words has been carefully considered and deliberated on whether or not to change it, or how to change it. This is especially true regarding the code as in the least bit it has been modified to work as a function for both data sets, rather than on a single data set shared as a global variable.
+	While working on this article, and re-working the original article, I encountered and had to deal with multiple problems, especially now that the data had a shape different than the original. For more information please see the Troubleshooting section in Appendix A.
 2. Layout (19)
 	* The layout is well structured with different sections well emphasized and differentiated.
 	* A structure of nested headlines using Markdown has been used.
@@ -92,13 +103,5 @@ The numbers in brackets define possible points for the corresponding item.
 	* In addition additional effort has been put into making the project more visually appealing by making a headline image, and other visual stylings.
 	* I have been honest and worked on this project entirely by myself. This can be further confirmed by the screenshots of my GitHub repo, included in the "A lot of work and learning along the way" subsection in "Appendix A", showing that I am the sole contributor to my project repo and that all commits are done by myself.
 	* In addition, in my opinion, I have been honest and critical of myself in the "Things I would have done differently." subsection in the "Further development" section as well as in this assessment.
-	* One of the aims of this article is to also understand a bit of Data Science, more specifically how to clean, manipulate and visualize data in order to get it into a usable state from which we can extract information we might be interested in.
-	Another aim of this article is to hopefully make these topics less taboo, which is probably a good thing, as we will see in the Research section, more specifically Research conclusions section, these topics penetrate our lives in various ways and are therefore important.
-	Please keep in mind that this article is intended to be both scientific and humorous and fun and has no intention of insulting or offending anyone.
-	The humour, jokes and friendly tone of this article is chosen on purpose and intended as it seemed like a good way to convey this data, containing explicit content, and in this way to have a better reception, rather than a negative or offensive outlook.
-	This article is an exploration and extension inspired by the original article - "Pornactors are among us! (18+)" by infamous25700 - Alexander Filin in Kaggle. 
-	The first main difference between this notebook and the original one is that we will not be merging the two data sets and instead keep the separation between porn stars and porn models.
-	This way if more intricate differentiations or parallels need to be extrapolated it can be done in an easier manner.
-	In addition, as an expansion of the original article each section has been provided with a "Results comparison" subsection, which compares the current results of the separation of the data sets, with the original reulsts, where the datasets are merged.
-	At a first glance this article/notebook might look like it was copied literally from the original, however it is not, as each line of code or words has been carefully considered and deliberated on whether or not to change it, or how to change it. This is especially true regarding the code as in the least bit it has been modified to work as a function for both data sets, rather than on a single data set shared as a global variable.
-	While working on this article, and re-working the original article, I encountered and had to deal with multiple problems, especially now that the data had a shape different than the original. For more information please see the Troubleshooting section in Appendix A.
+
+
